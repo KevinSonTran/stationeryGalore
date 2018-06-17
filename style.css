@@ -1,0 +1,224 @@
+html
+{
+	font-family: 'Josefin Sans', sans-serif;
+	background: url('images/MaxPixel.freegreatpicture.com-Note-Notebook-Lined-Paper-Sackcloth-1280548.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+body
+{
+	text-align: center;
+	margin: 0px;
+	
+	overflow-x: hidden;
+}
+footer
+{
+	text-align: center;
+	padding: 10px;
+	
+	color: #ffffff;
+	background-color: #800000;
+}
+
+nav
+{
+	text-align: left;
+	background-color: #800000;
+}
+nav div
+{
+	display: block;
+	padding: 10px;
+	position: relative;
+	width: 10%;
+	text-align: center;
+}
+@media screen and (min-width: 479px)
+{
+	nav div
+	{
+		display: inline-block;
+	}
+}
+
+nav a
+{
+	color: #ffffff;
+	text-decoration: none;
+}
+nav div:visited
+{
+	color: #ffffff;
+}
+nav div:hover
+{
+	color: #ffffff;
+	background-color: #000000;
+}
+nav div:active
+{
+	color: #000000;
+	background-color: #ffffff;
+}
+
+table
+{
+	border-collapse: collapse;
+	width: 100%;
+	background-color: rgba(1,1,1,0);
+}
+tr
+{
+	vertical-align: top;
+}
+
+th
+{
+	padding: 6px;
+	font-weight: bold;
+	background: #cccccc;
+}
+td
+{
+	padding: 6px;
+}
+
+
+input
+{
+	width: 100%;
+	border-left:none;
+	border-right:none;
+	border-top:none;
+	border-bottom: 1px solid #c0c0c0;
+	font-family: 'Josefin Sans', sans-serif;
+}
+textarea
+{
+	width: 100%;
+	border-left:none;
+	border-right:none;
+	border-top:none;
+	border-bottom: 1px solid #c0c0c0;
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 15px;
+}
+select
+{
+	border-left:none;
+	border-right:none;
+	border-top:none;
+	border-bottom: 1px solid #c0c0c0;
+	width: 50%;
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 15px;
+}
+option
+{
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 15px;
+}
+button
+{
+	border-style: none;
+	background: #c0c0c0;
+	padding: 10px;
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 15px;
+}
+button:hover
+{
+	background: #800000;
+}
+button:active
+{
+	background: #202020;
+	color: #ffffff;
+}
+
+a
+{
+	color: #ff0000;
+}
+a:hover
+{
+	color: #800000;
+}
+a:active
+{
+	color: #ffffff;
+}
+#logo
+{
+	width: 25%;
+}
+#content
+{
+	display: inline-block;
+	vertical-align: top;
+	text-align: left;
+	width: 100%;
+	padding: 0px;
+	
+	
+	background-color: #ffffff;
+}
+@media screen and (min-width: 479px)
+{
+	#content
+	{
+		width: 70%;
+		padding: 25px;
+	}
+}
+#displayBlock
+{
+	width: 100%;
+	text-align: left;
+}
+
+.numPostsCol
+{
+	text-align: center;
+}
+.storeItem
+{
+	vertical-align: middle;
+}
+.storeItem:not(:last-child)
+{
+	border-bottom: #c0c0c0 solid;
+}
+.viewItem
+{
+	float: left;
+	padding: 1%;
+}
+.breadcrumbTrail
+{
+	padding: 1%;
+}
+.storeItemThumbnail
+{
+	text-align: center;
+	width: 5%;
+}
+.storeItemThumbnail img
+{
+	width: auto;
+	height: 32px;
+}
+@media screen and (min-width: 479px)
+{
+	.storeItemThumbnail
+	{
+		text-align:center;
+		width:20%;
+	}
+	.storeItemThumbnail img
+	{
+		width: auto;
+		height: 128px;
+	}
+}
